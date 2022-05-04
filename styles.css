@@ -1,111 +1,57 @@
 body {
-    font-family: 'Anaheim';
-    font-size: 1.2em;
-  }
-  
-  #outside {
-    background-color: lightgoldenrodyellow;
-    padding-top: 25px;
-    padding-bottom: 25px;
-  }
-  
-  h1 {
-    font-size: 1.5em;
     text-align: center;
-    text-transform: capitalize;
-  }
-  
-  form {
-    /* Just to center the form on the page */
-    margin: 0 auto;
-    width: 70%;
-    /* To see the limits of the form */
-    padding: 1em;
-    border: 1px solid #CCC;
-    border-radius: 1em;
+    margins: 20px 30px 4px 5px; 
+    background-color: green; 
+    color: white; 
     
-  }
-  #survey-form {
-    background-color: white;
-  }
-  
-  fieldset { 
-    border:1px solid lightgray;
-    margin: 10px;
-   }
-  
-  legend {
-    font-weight: 700;
-  }
-  
-  #number {
-    width: 150px;
-  }
-  
-  
-  div + div {
-    margin-top: 1em;
+   ; 
+    
     }
-  
-  /* label {
-    /* To make sure that all label have the same size and are properly align */
-    /* display: inline-block; */
-    /* width: 80px; */
-    /* text-align: right; */
-  } */
-  
-  input, textarea {
-    /* To make sure that all text field have the same font settings
-       By default, textarea are set with a monospace font */
-    /* font: 1em sans-serif; */
-  
-    /* To give the same size to all text field */
-    width: 200px;
-  
-  /*   -moz-box-sizing: border-box;
-         box-sizing: border-box; */
-  
-    /* To harmonize the look & feel of text field border */
-    border: 1px solid #999;
+  #fruit4{
+    font-size: 25px; 
+    
+  }
+  #name-label {
+    font-size: 20px; 
+  }
+  #email-label {
+    font-size: 20px; 
+  }
+  #number-label {
+    font-size: 20px; 
+  }
+  #dropdown{
+    font-size: 20px; 
+  }
+  #orange {
+    font-size: 20px; 
   }
   
-  input:focus, textarea:focus {
-    /* To give a little highligh on active elements */
-    border-color: OrangeRed;
+  #p-2 {
+    font-size: 40px; 
   }
   
-  textarea {
-    /* To properly align multiline text field with their label */
-    vertical-align: top;
-  
-    /* To give enough room to type some text */
-    height: 5em;
-  
-    /* To allow users to resize any textarea vertically
-       It works only on Chrome, Firefox and Safari */
-    resize: vertical;
+  body{
+    margin-left: 20px;
+    margin: 0; 
+    padding: 0; 
   }
-  
-  .button {
-    /* To position the buttons to the same position of the text fields */
-    padding-left: 90px; /* same size as the label elements */
-  }
-  
-  button {
-    margin: .5em;
-    font-size: 1em;
-    text-transform: capitalize;
-    background-color: red;
-    color: white;
-    border: none;
-    padding: 5px;
-    border-radius: 2px;
+  #survey-form{
+    background-color: yellow; 
+    color: black; 
+    margin-top: 50px; 
+    margin-left: 350px; 
+    margin-right: 350px; 
+    margin-bottom: 50px; 
+   
+    
+    
     
   }
   
-  #submitbutton {
-    display: flex; 
-    justify-content: center;
-  }
+  
+  
+  
+  
   
   
