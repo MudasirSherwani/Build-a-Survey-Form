@@ -1,31 +1,79 @@
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
+<!DOCTYPE html>
 <head>
-<title>Amazon Survey Form</title>
-<h1 id = "Title"> Amazon Survey Form </h1>
-<link rel="stylesheet" href="styles.css">
+  <h1 id="title">freeCodecamp Survey Form</h1>
+  <link rel="stylesheet" href="hw1.css">
 </head>
+<body id=".left">
+  <title id="title">
+    <h1>FreeCodecamp Survey Form</h1></title>
+<header id="main-header" class="main-header"></header>
+  <h1 id="fruit4"><i>Fruit is what we do </i><h1> 
+    <p id="description">
+      Personal Information, Please<p>
+<main>
+    
 
-<body>
-    
-    <p id="description">Amazon gives another $2.2 million to help meet the basic needs of students in underserved communities in the Puget Sound region,
-         bringing the total so far to $8 million.</p>
-    
+  <form id="survey-form">
+    <div>
+      <label id="name-label" for="name">Name
+      </label>
+      <br>
+      <input id="name" type="text" name="name" placeholder="enter your name" required="">
+    <div>
+    <div>
+      
+      <label id="email-label" for="email-label">Email<br>
+      </label>
+      <input id="email" class="email" type="email"
+             name="email" placeholder="enter your email" required="">
+      </div>
+      <div>
+        <label id="number-label" for="number-label">Age </label>
+        <br><input id="number" class="number" type="number"
+               name="number" placeholder="enter a number" required="" min=0 max=10,000>
+        <br>
+        <label>What Fruit Do You Like Most?</label><br>
+<form>
+<select id="dropdown">
+<option value="Grapes">Grapes</option>
+<option value="Tomatoes">Tomatoes</option>
+<option value="Dates">Dates</option>
+<option value="Honeydew">Honeydew</option>
+<option value="Cantaloupe">Cantaloupe</option>
+</select>
+</form>
+
+       
+          
         
-    </body>
-    <body>
-         <form id="form">
-              <div class="form control">
-                   <label for="name" id="lable-name">Your Name</label>
-                   <input type="text" id="name" placeholder="enter your name"
-
-    
-              </div>
-              div class="form control">
-                   <label for="email" id="lable-email">Email</label>
-                   <input type="text" id="email" placeholder="enter your email"
-
-    
-              </div>
-         </form>
-    </body>
+        <div>
+          
+          
+      
+        
+        <br>
+          <p id="p-1">do you like Mango or Orange?</p>
+          <input type="radio" id="mango" name="fruit" value="mango">
+          <label for="mango">Mango<br></label><br>
+          <input type="radio" id="orange" name="fruit" value="orange">
+          <label for="orange">Orange</label><br>
+          
+          <p id="p-2">What what what?</p>
+        
+        <input type="checkbox" id="what" name="what" value="fruit"> 
+        <label for="what">What</label>
+        <input type="checkbox" id="what1" name="what1" value="fruit">
+        <label for="what1">What1</label>
+        <input type="checkbox" id="what2" name="what2" value="fruit">
+        <label for="what2">What2</label><br>
+        <br>
+        
+        <label for="The love of fruit">For the love of fruit</label><br><br>
+        
+        <textarea name="for the love of fruit" rows="4" cols="50" value="submit">You can write about fruit here.
+        </textarea>
+        <br>
+        <input type="submit" value="Submit" id="submit">
+        </form>
